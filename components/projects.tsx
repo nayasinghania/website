@@ -1,5 +1,5 @@
 import Project from "@/components/project";
-import { ProjectType } from "@/lib/types";
+import type { ProjectType } from "@/lib/types";
 
 const projects: ProjectType[] = [
   {

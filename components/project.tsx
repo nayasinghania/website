@@ -1,4 +1,4 @@
-import { ProjectType } from "@/lib/types";
+import type { ProjectType } from "@/lib/types";
 import Dates from "./dates";
 import { Button } from "./ui/button";
 
@@ -12,7 +12,7 @@ export default function Project({ project }: { project: ProjectType }) {
       <h3 className="mt-4">{project.title}</h3>
       <Dates date={date} />
       <p className="my-2">{project.description}</p>
-      <ul className="flex gap-2 my-2">
+      <ul className="flex flex-wrap gap-2 my-2">
         {project.skills.map((skill) => (
           <li key={skill} className="bg-secondary p-2 text-xs rounded-md">
             {skill}{" "}

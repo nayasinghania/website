@@ -1,4 +1,4 @@
-import { DateType } from "@/lib/types";
+import type { DateType } from "@/lib/types";
 
 export default function Dates({ date }: { date: DateType }) {
   return (
