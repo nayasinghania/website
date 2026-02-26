@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div>
       <div className="fixed bg-black w-full py-4">
-        <h1 className="bg-linear-to-r from-blue-500 via-purple-500 bg-clip-text text-transparent pb-2 max-w-xl">
+        <h1 className="bg-linear-to-r from-blue-500 via-purple-500 to-purple-500 bg-clip-text text-transparent pb-2 max-w-xl">
           Naya Singhania
         </h1>
         <h2 className="hidden lg:block">
@@ -21,7 +21,7 @@ export default function Hero() {
         <h2 className="block md:hidden">Computer Science @ SJSU</h2>
         <h2 className="block md:hidden">Software Engineer | Applied AI/ML</h2>
       </div>
-      <div className="h-36 lg:h-28"></div>
+      <div className="h-28 sm:h-36 lg:h-28"></div>
 
       <div className="flex gap-4 my-4 items-start">
         <Image
