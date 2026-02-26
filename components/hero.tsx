@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 export default function Hero() {
   return (
     <div>
-      <div className="fixed bg-black w-[90%] py-4">
-        <h1 className="bg-linear-to-r from-blue-500 via-purple-500 bg-clip-text text-transparent pb-2 max-w-lg">
+      <div className="fixed bg-black w-full py-4">
+        <h1 className="bg-linear-to-r from-blue-500 via-purple-500 bg-clip-text text-transparent pb-2 max-w-xl">
           Naya Singhania
         </h1>
         <h2 className="hidden lg:block">
@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
       <div className="h-36 lg:h-28"></div>
 
-      <div className="flex gap-4 my-4">
+      <div className="flex gap-4 my-4 items-start">
         <Image
           src="/portrait.jpg"
           width={128}

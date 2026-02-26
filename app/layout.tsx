@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`dark ${inter.className} ${spaceGrotesk.variable}`}
     >
-      <body className="container mx-4 md:mx-8 bg-background md:pr-4 pr-8">
+      <body className="container mx-auto px-4 md:mx-8 bg-background">
         {children}
       </body>
     </html>
