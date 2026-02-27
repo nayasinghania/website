@@ -55,7 +55,7 @@ const projects: ProjectType[] = [
 export default function Projects() {
   return (
     <div>
-      <h2>Projects</h2>
+      <h2 className="-mb-2">Projects</h2>
       {projects.map((project) => (
         <Project key={project.title} project={project} />
       ))}

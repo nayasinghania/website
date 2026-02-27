@@ -12,3 +12,8 @@ export type DateType = {
   start: string;
   end: string;
 };
+
+export type SkillType = {
+  name: string;
+  logo: string;
+};

@@ -129,10 +129,10 @@
     font-family: var(--font-space-grotesk), sans-serif;
   }
   h1 {
-    @apply text-3xl sm:text-5xl font-bold;
+    @apply text-[34px] sm:text-5xl font-bold;
   }
   h2 {
-    @apply sm:text-xl font-semibold;
+    @apply text-xl font-semibold;
   }
   h3 {
     @apply font-semibold;
