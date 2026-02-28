@@ -102,8 +102,7 @@ export default function ConstellationBackground() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
+    const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
 
     let w = window.innerWidth;
     let h = window.innerHeight;
