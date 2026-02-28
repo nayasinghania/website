@@ -7,7 +7,7 @@ export default function Hero() {
     <div>
       {" "}
       <div className="hidden sm:block">
-        <div className="flex gap-4 items-start mb-4">
+        <div className="flex gap-4 mb-4">
           <Portrait />
           <About />
         </div>

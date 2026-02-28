@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "motion/react";
 import Image from "next/image";
 import type { SkillType } from "@/lib/types";
 
@@ -41,21 +44,19 @@ const skills: SkillType[] = [
   { name: "Docker", logo: "https://www.svgrepo.com/show/452192/docker.svg" },
   { name: "GCP", logo: "https://www.svgrepo.com/show/353805/google-cloud.svg" },
   { name: "Linux", logo: "https://www.svgrepo.com/show/354004/linux-tux.svg" },
-  {
-    name: "Git",
-    logo: "https://www.svgrepo.com/show/303548/git-icon-logo.svg",
-  },
   { name: "Cypress", logo: "https://www.svgrepo.com/show/373542/cypress.svg" },
-  { name: "Jupyter", logo: "https://www.svgrepo.com/show/373718/jupyter.svg" },
 ];
 
 export default function Skills() {
   return (
-    <div className="flex flex-wrap gap-2 lg:gap-4 mb-4 lg:mb-0">
-      {skills.map((skill) => (
-        <div
+    <div className="flex flex-wrap gap-2 lg:gap-4 mb-4 lg:mb-0 justify-center md:justify-start">
+      {skills.map((skill, index) => (
+        <motion.div
           key={skill.name}
-          className="bg-primary text-primary-foreground  p-1 rounded-md flex flex-col items-center min-w-12 lg:min-w-24"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: index * 0.05, duration: 3 }}
+          className="bg-primary/30 text-primary-background backdrop-blur-xs border border-primary/30 shadow-lg p-1 rounded-md flex flex-col items-center min-w-12 lg:min-w-24"
         >
           <p className="font-semibold mb-1 text-xs lg:text-sm hidden lg:block">
             {skill.name}
@@ -67,7 +68,7 @@ export default function Skills() {
             alt={`${skill.name}logo`}
             className=""
           />
-        </div>
+        </motion.div>
       ))}
     </div>
   );

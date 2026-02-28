@@ -1,7 +1,7 @@
 export default function Title() {
   return (
     <div>
-      <div className="fixed bg-black w-full py-4">
+      <div className="fixed bg-black w-full py-4 z-10">
         <h1 className="bg-linear-to-r from-blue-500 via-purple-500 to-purple-500 bg-clip-text text-transparent pb-2 max-w-xl">
           Naya Singhania
         </h1>
