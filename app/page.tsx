@@ -1,20 +1,14 @@
-import Footer from "@/components/footer";
-import Hero from "@/components/hero";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
-import Title from "@/components/title";
+import Left from "@/components/left";
+import Right from "@/components/right";
 
 export default function Page() {
   return (
-    <div>
-      <Title />
-      <div className="flex flex-wrap lg:flex-nowrap gap-6">
-        <Hero />
-        <Skills />
+    <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+      {" "}
+      <div className="lg:flex lg:justify-between lg:gap-4">
+        <Left />
+        <Right />
       </div>
-
-      <Projects />
-      <Footer />
     </div>
   );
 }

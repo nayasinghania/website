@@ -1,9 +1,7 @@
 export default function Footer() {
   return (
-    <div>
-      <hr className="my-4" />
-      <p className="text-xs">&copy; Naya Singhania 2026</p>
-      <p className="text-xs">All Rights Reserved</p>
-    </div>
+    <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
+      <p>&copy; 2026 Naya Singhania</p>
+    </footer>
   );
 }

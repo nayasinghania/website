@@ -1,17 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-import ConstellationBackground from "@/components/constellation-background";
 
 const inter = Inter({
   subsets: ["latin"],
   display: "swap",
-});
-
-const spaceGrotesk = Space_Grotesk({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-space-grotesk",
 });
 
 export const metadata: Metadata = {
@@ -26,14 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`dark ${inter.className} ${spaceGrotesk.variable}`}
-    >
-      <body className="container mx-auto px-4 md:mx-8 bg-background mb-12">
-        <div className="hidden md:block">
-          <ConstellationBackground />
-        </div>
+    <html lang="en" className={`dark ${inter.className}`}>
+      <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         {children}
       </body>
     </html>
