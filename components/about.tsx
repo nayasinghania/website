@@ -4,7 +4,7 @@ export default function About() {
       id="about"
       className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
     >
-      <div>
+      <div className="font-semibold">
         <p className="mb-4">
           I'm passionate about building thoughtful data-driven applications with
           real-world impact. I’m studying Computer Science at SJSU, interning at

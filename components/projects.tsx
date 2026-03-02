@@ -5,7 +5,7 @@ const projects = [
     title: "Accuguide",
     link: "https://accuguide.org",
     description:
-      "Accuguide is an open-source project designed to help people with disabilities find, review, and better understand the accessibility of public spaces.",
+      "Accuguide is a community-based accessibility platform designed to help people with disabilities find, review, and better understand the accessibility of public spaces.",
     image: "/projects/accuguide.png",
     skills: [
       "Next.js",
@@ -22,7 +22,7 @@ const projects = [
     title: "Cal Ignite",
     link: "https://github.com/nayasinghania/cal-ignite",
     description:
-      "Cal Ignite is a project that aims to use a 6 year span of daily California weather data to predict wildfire risk for 4km regions",
+      "Cal Ignite aims to use 6 years of daily weather data and fire incidents to predict wilfdire ignition risk across California at 4km resolution.",
     image: "/projects/cal.png",
     skills: ["Python", "XGBoost", "PyTorch"],
   },
@@ -30,7 +30,7 @@ const projects = [
     title: "Spartan Score",
     link: "https://spartan-score.netlify.app",
     description:
-      "Spartan Score is a web app for SJSU students to be able to easily calculate their current GPA and see how their grades will affect their GPA in the future.",
+      "Spartan Score is a web application that allows SJSU students to quickly calculate their semester GPA with just a screenshot. This makes it much quicker than manually entering grades.",
     image: "/projects/spartan.png",
     skills: ["Next.js", "OCR"],
   },
@@ -38,9 +38,9 @@ const projects = [
     title: "Scrobble Quiz",
     link: "https://github.com/nayasinghania/scrobble-quiz",
     description:
-      "Test your music knowledge based on your Last.fm (music service) history! This project uses both traditional ML and generative AI to generate relevant quiz questions for the user.",
+      "Scrobble Quiz uses your Last.fm listening history to generate a quiz to see how well you know your music tastes. Clustering and LLM integration is used to generate relevant quiz questions and answers.",
     image: "/projects/scrobble.png",
-    skills: ["Next.js", "LLM Integration", "Last.FM API"],
+    skills: ["Next.js", "LLM Integration", "K-Means Clustering", "Last.FM API"],
   },
   {
     title: "Portfolio Website",
@@ -83,9 +83,7 @@ export default function Projects() {
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
-                          <title>
-                            {`${project.title}link to${project.link}`}
-                          </title>
+                          <title>{`${project.title}link to${project.link}`}</title>
                           <path
                             fillRule="evenodd"
                             d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
@@ -100,7 +98,7 @@ export default function Projects() {
                   <ul className="mt-2 flex flex-wrap">
                     {project.skills.map((skill) => (
                       <li key={skill} className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                        <div className="flex items-center rounded-lg bg-slate-950/70 px-3 py-1 text-xs font-medium leading-5 text-slate-200">
                           {skill}
                         </div>
                       </li>
