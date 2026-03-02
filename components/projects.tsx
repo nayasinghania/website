@@ -19,12 +19,20 @@ const projects = [
     ],
   },
   {
+    title: "Cal Ignite",
+    link: "https://github.com/nayasinghania/cal-ignite",
+    description:
+      "Cal Ignite is a project that aims to use a 6 year span of daily California weather data to predict wildfire risk for 4km regions",
+    image: "/projects/cal.png",
+    skills: ["Python", "XGBoost", "PyTorch"],
+  },
+  {
     title: "Spartan Score",
     link: "https://spartan-score.netlify.app",
     description:
       "Spartan Score is a web app for SJSU students to be able to easily calculate their current GPA and see how their grades will affect their GPA in the future.",
     image: "/projects/spartan.png",
-    skills: ["Next.js", "MongoDB", "Logistic Regression", "Web Scraping"],
+    skills: ["Next.js", "OCR"],
   },
   {
     title: "Scrobble Quiz",

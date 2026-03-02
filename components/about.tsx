@@ -12,6 +12,13 @@ export default function About() {
           of community accessibility initiatives, and I enjoy crocheting and
           music production in my free time!
         </p>
+        <p className="mb-4">
+          Currently, at Yottasecure, I am enhancing our AI native enterprise
+          cybersecurity platform. I am also working on Accuguide, a community
+          accessibility initiative. I recently started a project called Cal
+          Ignite, that I hope will make wildfire incident response more
+          efficient.
+        </p>
       </div>
     </section>
   );
