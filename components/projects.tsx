@@ -98,7 +98,7 @@ export default function Projects() {
                   <ul className="mt-2 flex flex-wrap">
                     {project.skills.map((skill) => (
                       <li key={skill} className="mr-1.5 mt-2">
-                        <div className="flex items-center rounded-lg bg-slate-950/70 px-3 py-1 text-xs font-medium leading-5 text-slate-200">
+                        <div className="flex items-center rounded-lg bg-purple-500/70 px-3 py-1 text-xs font-medium leading-5 text-slate-200">
                           {skill}
                         </div>
                       </li>
