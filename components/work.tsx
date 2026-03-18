@@ -1,13 +1,13 @@
-import { work } from "@/lib/content";
 import ExperienceHeader from "@/components/experience-header";
+import { work } from "@/lib/content";
 
 export default function Work() {
   return (
     <div>
       <h2>Work Experience</h2>
       <div className="space-y-6">
-        {work.map((job, index) => (
-          <div key={index} className="flex flex-col gap-4">
+        {work.map((job) => (
+          <div key={job.company} className="flex flex-col gap-4">
             <ExperienceHeader
               image={job.image}
               imageAlt={job.company}
@@ -16,6 +16,8 @@ export default function Work() {
               subtitle2={job.location}
               start={job.start}
               end={job.end}
+              period={job.period}
+              year={job.year}
             />
             <p className="text-slate-300 leading-relaxed">{job.description}</p>
           </div>

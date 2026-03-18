@@ -1,6 +1,6 @@
-import { projects } from "@/lib/content";
-import Image from "next/image";
 import { ExternalLink } from "lucide-react";
+import Image from "next/image";
+import { projects } from "@/lib/content";
 
 export default function Projects() {
   return (

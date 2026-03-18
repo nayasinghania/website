@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { seo } from "@/lib/content";
 import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Naya Singhania",
-  description:
-    "Naya Singhania's personal website showcasing projects, skills, and contact information.",
+  title: seo.title,
+  description: seo.description,
 };
 
 export default function RootLayout({
