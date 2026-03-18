@@ -18,6 +18,7 @@ export default function Work() {
               end={job.end}
               period={job.period}
               year={job.year}
+              link={job.link}
             />
             <p className="text-slate-300 leading-relaxed">{job.description}</p>
           </div>

@@ -37,6 +37,7 @@ export const education = [
     period: "Expected Grad",
     year: "May 2027",
     image: "/sjsu.png",
+    link: "https://sjsu.edu",
     coursework: [
       {
         name: "Data Structures and Algorithms",
@@ -68,6 +69,7 @@ export const work = [
     image: "/work/ys.jpg",
     description:
       "Built RAG-based vulnerability analysis using AWS Bedrock to improve detection quality, patched ~50 high-severity CVEs across dependencies, and expanded Trivy scanning to support filesystem, Kubernetes, and SBOM targets.",
+    link: "https://ai.yottasecure.com",
   },
   {
     company: "Mundoprints",
@@ -80,6 +82,7 @@ export const work = [
     image: "/work/mp.jpg",
     description:
       "Developed serverless backend systems with AWS Lambda and API Gateway, improved authentication performance by 50%+ using Cognito and DynamoDB, automated Cypress testing to reduce QA time by 90%, and built pricing models on 100k+ records (R² = 0.95).",
+    link: "https://mundoprints.in/about",
   },
   {
     company: "Y Stem and Chess Inc",
@@ -92,6 +95,7 @@ export const work = [
     image: "/work/ystem.jpg",
     description:
       "Improved platform performance by redesigning React–Express data pipelines and optimizing MongoDB queries, reducing latency by 30% for 10k+ users, and enabled real-time gameplay with scalable WebSocket systems (<100ms latency).",
+    link: "https://www.ystemandchess.com/mu",
   },
 ];
 
@@ -101,7 +105,7 @@ export const projects = [
     url: "https://github.com/nayasinghania/caltrain-delay",
     github: "https://github.com/nayasinghania/caltrain-delay",
     description:
-      "Developed a machine learning system to predict Caltrain delays across 31 stations using historical transit and weather data.",
+      "Developed a machine learning system to predict Caltrain delays across 31 stations using historical transit and weather data. Deployed on FastAPI and Next.js for public availability.",
     images: ["/projects/caltrain.jpg"],
     skills: ["Python", "PyTorch", "XGBoost", "FastAPI", "Docker"],
     start: "Mar 2026",
@@ -114,7 +118,17 @@ export const projects = [
     description:
       "Built a Next.js platform that helps disabled users discover and review accessibility of public locations, serving 100+ users.",
     images: ["/projects/accuguide.png"],
-    skills: ["Next.js", "PostgreSQL", "FastAPI", "XGBoost", "React", "AWS", "CI/CD"],
+    skills: [
+      "Next.js",
+      "PostgreSQL",
+      "FastAPI",
+      "XGBoost",
+      "React",
+      "AWS",
+      "LLMs",
+      "RAG",
+      "CI/CD",
+    ],
     start: "Dec 2024",
     end: "Present",
   },
@@ -125,7 +139,7 @@ export const projects = [
     description:
       "Built an application using Express and React that helps people locate accessible restrooms that are stocked with supplies. Developed backend endpoints and computer vision features. Built for SJHacks 2025.",
     images: ["/projects/sjhacks.jpg"],
-    skills: ["Next.js", "React", "OCR"],
+    skills: ["Next.js", "React", "PyTorch", "LLMs"],
     start: "Feb 2025",
     end: "August 2025",
   },
@@ -134,7 +148,7 @@ export const projects = [
     url: "https://spartan-score.netlify.app",
     github: "https://github.com/nayasinghania/spartan-score",
     description:
-      "Built a GPA calculates that works off of a screenshot of grades from Canvas.",
+      "Built a GPA calculator that works off of a screenshot of grades from Canvas. Uses Tesseract OCR to parse images.",
     images: ["/projects/score.png"],
     skills: ["Next.js", "React", "OCR"],
     start: "Feb 2025",
