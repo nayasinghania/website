@@ -22,7 +22,9 @@ export default function Education() {
             />
             <div className="flex gap-4">
               <div className="flex-1">
-                <p className="hidden sm:block font-semibold mb-2">Relevant Coursework</p>
+                <p className="hidden sm:block font-semibold mb-2">
+                  Relevant Coursework
+                </p>
                 <p className="block sm:hidden font-semibold mb-2 text-center">
                   Coursework
                 </p>
@@ -39,7 +41,9 @@ export default function Education() {
                 </div>
               </div>
               <div className="flex-1">
-                <p className="hidden sm:block font-semibold mb-2">Organizations</p>
+                <p className="hidden sm:block font-semibold mb-2">
+                  Organizations
+                </p>
                 <p className="block sm:hidden text-center font-semibold mb-2">
                   Organizations
                 </p>
@@ -51,7 +55,9 @@ export default function Education() {
                       className="px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/50"
                     >
                       <p className="text-xs font-semibold">{org.name}</p>
-                      <p className="text-xs text-slate-400 font-semibold">{org.role}</p>
+                      <p className="text-xs text-slate-400 font-semibold">
+                        {org.role}
+                      </p>
                     </div>
                   ))}
                 </div>
