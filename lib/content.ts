@@ -105,7 +105,7 @@ export const work = [
 export const projects = [
   {
     name: "Caltrain Delay Predictor",
-    url: "https://github.com/nayasinghania/caltrain-delay",
+    url: "https://caltrain-delay.netlify.app",
     github: "https://github.com/nayasinghania/caltrain-delay",
     description:
       "I developed a machine learning system to predict Caltrain delays across 31 stations using historical transit and weather data. I deployed it on FastAPI and am currently working to enable real-time delay information.",
