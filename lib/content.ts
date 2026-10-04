@@ -62,6 +62,19 @@ export const education = [
 
 export const work = [
   {
+    company: "Break Through Tech",
+    title: "AI Studio Fellow",
+    location: "Remote",
+    start: "Aug 2026",
+    end: "Present · 3 mos",
+    period: "Fall",
+    year: "2026",
+    image: "/work/btt.svg",
+    description:
+      "Working on an industry challenge to predict organ-transplant waitlist outcomes and optimize allocation using machine learning techniques.",
+    link: "https://www.breakthroughtech.org",
+  },
+  {
     company: "Yottasecure",
     title: "Software Engineer Intern",
     location: "Remote",
