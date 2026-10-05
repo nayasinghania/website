@@ -66,7 +66,7 @@ export const work = [
     title: "AI Studio Fellow",
     location: "Remote",
     start: "Aug 2026",
-    end: "Present · 3 mos",
+    end: "Present",
     period: "Fall",
     year: "2026",
     image: "/work/btt.svg",
