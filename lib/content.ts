@@ -139,17 +139,6 @@ export const projects = [
     end: "Present",
   },
   {
-    name: "Restroom Finder",
-    url: "https://github.com/nayasinghania/restroom-finder",
-    github: "https://github.com/nayasinghania/restroom-finder",
-    description:
-      "My team and I built an application using Express and React that helps people locate accessible restrooms that are stocked with hygiene supplies. I developed backend endpoints and computer vision features. We built this for SJHacks 2025.",
-    images: ["/projects/sjhacks.jpg"],
-    skills: ["Next.js", "React", "PyTorch", "LLMs"],
-    start: "Feb 2025",
-    end: "August 2025",
-  },
-  {
     name: "Spartan Score",
     url: "https://spartan-score.netlify.app",
     github: "https://github.com/nayasinghania/spartan-score",
