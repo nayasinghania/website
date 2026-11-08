@@ -157,10 +157,6 @@ export const skills = [
     icon: "https://www.svgrepo.com/show/452091/python.svg",
   },
   {
-    name: "Javascript",
-    icon: "https://www.svgrepo.com/show/349419/javascript.svg",
-  },
-  {
     name: "TypeScript",
     icon: "https://www.svgrepo.com/show/349540/typescript.svg",
   },
@@ -169,16 +165,12 @@ export const skills = [
     icon: "https://www.svgrepo.com/show/374093/sql.svg",
   },
   {
+    name: "Javascript",
+    icon: "https://www.svgrepo.com/show/349419/javascript.svg",
+  },
+  {
     name: "Java",
     icon: "https://www.svgrepo.com/show/452234/java.svg",
-  },
-  {
-    name: "C",
-    icon: "https://www.svgrepo.com/show/373482/c.svg",
-  },
-  {
-    name: "PyTorch",
-    icon: "https://www.svgrepo.com/show/354240/pytorch.svg",
   },
   {
     name: "XGBoost",
@@ -189,6 +181,10 @@ export const skills = [
     icon: "/skills/sci.ico",
   },
   {
+    name: "PyTorch",
+    icon: "https://www.svgrepo.com/show/354240/pytorch.svg",
+  },
+  {
     name: "FastAPI",
     icon: "/skills/fastapi.svg",
   },
@@ -197,12 +193,12 @@ export const skills = [
     icon: "/skills/express.svg",
   },
   {
-    name: "MySQL",
-    icon: "https://www.svgrepo.com/show/373848/mysql.svg",
-  },
-  {
     name: "Node.js",
     icon: "https://www.svgrepo.com/show/452075/node-js.svg",
+  },
+  {
+    name: "REST APIs",
+    icon: "https://www.svgrepo.com/show/447473/rest-api.svg",
   },
   {
     name: "Next.js",
@@ -223,6 +219,10 @@ export const skills = [
   {
     name: "DynamoDB",
     icon: "https://www.svgrepo.com/show/353450/aws-dynamodb.svg",
+  },
+  {
+    name: "MySQL",
+    icon: "https://www.svgrepo.com/show/373848/mysql.svg",
   },
   {
     name: "AWS",
