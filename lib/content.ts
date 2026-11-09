@@ -201,6 +201,10 @@ export const skills = [
     icon: "https://www.svgrepo.com/show/447473/rest-api.svg",
   },
   {
+    name: "Postman API",
+    icon: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+  },
+  {
     name: "Next.js",
     icon: "/skills/next.svg",
   },
