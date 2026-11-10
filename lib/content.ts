@@ -6,7 +6,7 @@ export const seo = {
 
 export const about = {
   description:
-    "I'm a backend software engineer specializing in applied machine learning. I have experience building scalable backend systems, training and tuning ML models, and working with cloud technologies and devops infrastructure. I'm passionate about using technology to solve real-world problems and create user-focused solutions. As I near the end of my degree, I am open to work and actively looking for a full-time role.",
+    "I'm an aspiring software engineer specializing in backend development and applied machine learning! I am passionate about building reliable, data-driven products that solve real-world problems. I am currently in my last year studying Computer Science at SJSU, working on a ML industry challenge in the healthcare domain at Break Through Tech, and building projects focusing on accessibility and public transit. I'm actively looking for new grad roles and open to connect!",
 };
 
 export const hero = {
