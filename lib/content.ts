@@ -69,7 +69,7 @@ export const work = [
     end: "Present",
     period: "Fall",
     year: "2026",
-    image: "/work/btt.svg",
+    image: "/work/btt.png",
     description:
       "Working on an industry challenge to predict organ-transplant waitlist outcomes and optimize allocation using machine learning techniques. I was responsible for building full data pipeline with over 500k records and training tree ensemble models, achieving a cross-validates 0.74 ROC-AUC and 0.71 recall. I also maintained much of the project's documentation",
     link: "https://www.breakthroughtech.org",
