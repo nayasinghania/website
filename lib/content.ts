@@ -123,7 +123,7 @@ export const projects = [
     description:
       "I developed a machine learning system to predict Caltrain delays across 31 stations using historical transit and weather data. I deployed it on FastAPI and am currently working to enable real-time delay information.",
     images: ["/projects/caltrain.jpg"],
-    skills: ["Python", "PyTorch", "XGBoost", "FastAPI"],
+    skills: ["Python", "PyTorch", "XGBoost", "FastAPI", "React"],
     start: "Mar 2026",
     end: "Present",
   },
