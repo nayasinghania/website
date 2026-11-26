@@ -6,7 +6,7 @@ export const seo = {
 
 export const about = {
   description:
-    "I'm an aspiring software engineer specializing in backend development and applied machine learning! I am passionate about building reliable, data-driven products that solve real-world problems. I am currently in my last year studying Computer Science at SJSU, working on a ML industry challenge in the healthcare domain at Break Through Tech, and building projects focusing on accessibility and public transit. I'm actively looking for new grad roles and open to connect!",
+    "I'm an aspiring software engineer specializing in backend development and applied machine learning! I am passionate about building reliable, data-driven products that solve real-world issues. I am currently in my last year studying Computer Science at SJSU, working on a ML industry challenge in the healthcare domain at Break Through Tech, and building projects focusing on accessibility and public transit. I'm actively looking for new grad roles and open to connect!",
 };
 
 export const hero = {
